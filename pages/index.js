@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
@@ -11,11 +12,17 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+  	  Hello I'm <Link href="/posts/first-post">HYEYUN!</Link>
+	</h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          Would you like to know me?
+	</p>
+	<p className={styles.description}>
+	  Click HYEYUN! above.
+	</p>
+	<p className={styles.description}>
+	  Thank you for visiting!
         </p>
 
         <div className={styles.grid}>
